@@ -17,6 +17,5 @@ else :
 
 
 
-print(list(map(int, str(1))))
-print(sum(map(int, str(10))))
+
 

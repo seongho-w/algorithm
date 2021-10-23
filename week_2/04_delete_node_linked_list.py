@@ -1,3 +1,5 @@
+# 클래스 개념 :
+
 class Node:
     def __init__(self, data):
         self.data = data
