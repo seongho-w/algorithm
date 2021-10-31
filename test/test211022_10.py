@@ -19,9 +19,10 @@
 # f = (int(a)) * c[2]
 # e = (int(a)) * c[1]
 #
+# print(d)
 # print(e)
 # print(f)
-# print(d)
+#
 #
 # print(int(a)*int(b))
 

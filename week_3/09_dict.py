@@ -19,6 +19,9 @@
 # put(key, value) : key 에 value 저장하기
 # get(key) : key 에 해당하는 value 가져오기
 
+# 해쉬 함수(Hash Function)는 임의의 길이를 갖는 메시지를 입력하여 고정된 길이의 해쉬값을 출력하는 함수이다
+# 파이썬에서 hash(object) 로 제공
+
 
 class Dict:
     def __init__(self):
