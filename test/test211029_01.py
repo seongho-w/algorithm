@@ -9,6 +9,7 @@
 
 n, k = map(int, input().split())
 coins = []
+
 for i in range(n):
     coins.append(int(input()))
 result = 0
@@ -19,5 +20,7 @@ for i in range(n):
         result += k // coins[i]	# 나누어 발생한 몫 즉, 동전 갯수
         k = k % coins[i]	# 나머지를 다시 for문으로 계속 나눈다
 print(result)
+
+
 
 
